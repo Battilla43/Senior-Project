@@ -6,3 +6,5 @@ mongo_schema.js file displays the schemas I created for our MongoDB server. Thes
 
 The floodAlert.js file is the root for our email system. This will send a message off when the threshold of the sensor they signed up for is surpassed by the water elevation. 
 It connects to our MongoDB server and sends an email uing nodemailer to every user in the list. 
+
+sensor_script.js was a joint effort. This file grabs the flood data on a timer using setInterval(). This allows us to display the historical data of the sensor and that particular body of water. 
